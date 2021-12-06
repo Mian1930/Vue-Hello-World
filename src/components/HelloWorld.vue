@@ -35,7 +35,8 @@
 <script>
 export default {
   name: 'HelloWorld',
-  props: {
+  props,components: {
+    Welcome,
     msg: String
   }
 }

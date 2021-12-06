@@ -4,11 +4,15 @@
     </div>
 </template>
 <script>
+import { component } from 'vue/types/umd'
 export default {
     name:'Welcome',
     props:{
         info:String
+        
     }
 }
 </script>
+
+
 
